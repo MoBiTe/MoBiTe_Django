@@ -6,7 +6,7 @@ STATUS_ALUNO = (('A', 'ativo'),('I', 'inativo'),)
 
 class Aluno(models.Model):
     nome = models.CharField('nome', max_length=100)
-    cpf = models.CharField('CPF', max_length=14)
+    cpf = models.CharField('CPF', max_length=11)
     telefone = models.CharField('telefone', max_length=11)
     endereco = models.CharField('endereco', max_length=200)
     email = models.CharField('email', max_length=100)

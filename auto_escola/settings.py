@@ -39,8 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # my apps
     'auto_escola.core',
-    'auto_escola.veiculos',
     'auto_escola.aluno',
+    'auto_escola.escola',
+    'auto_escola.veiculos',
 ]
 
 MIDDLEWARE = [
