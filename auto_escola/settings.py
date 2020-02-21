@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # my apps
     'auto_escola.core',
     'auto_escola.aluno',
+    'auto_escola.aulas',
     'auto_escola.escola',
     'auto_escola.veiculos',
 ]
