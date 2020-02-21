@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # my apps
     'auto_escola.core',
     'auto_escola.veiculos',
+    'auto_escola.aluno',
 ]
 
 MIDDLEWARE = [
