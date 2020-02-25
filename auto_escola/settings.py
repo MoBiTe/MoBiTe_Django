@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'auto_escola.core',
     'auto_escola.aluno',
     'auto_escola.aulas',
-    'auto_escola.escola',
     'auto_escola.veiculos',
 ]
 
@@ -115,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 

@@ -12,10 +12,10 @@ class Veiculo(models.Model):
     fabricante = models.CharField('fabricante', max_length=50)
     modelo = models.CharField('modelo', max_length=50)
     ano_fabricacao = models.IntegerField('ano de fabricação',
-                                         max_length=4, choices=year_dropdown,
+                                         choices=year_dropdown,
                                          default=datetime.datetime.now().year)
     ano_modelo = models.IntegerField('ano do modelo',
-                                     max_length=4, choices=year_dropdown,
+                                     choices=year_dropdown,
                                      default=datetime.datetime.now().year)
     quilometragem = models.DecimalField('Km', max_digits=7, decimal_places=2)
 
