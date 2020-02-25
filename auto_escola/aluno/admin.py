@@ -9,4 +9,5 @@ class AlunoAdmin(admin.ModelAdmin):
         'cpf',
         'status',
     )
-    list_filter = ('nome', )
+    search_fields = ('nome', )
+    list_filter = ('status', )

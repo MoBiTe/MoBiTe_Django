@@ -5,10 +5,10 @@ from .models import Aula
 @admin.register(Aula)
 class AulaAdmin(admin.ModelAdmin):
     list_display = (
-        'aluno_id',
-        'automovel_id',
+        'nome_aluno',
+        'veiculo',
         'data_aula',
         'hora_aula',
     )
-    list_filter = ('aluno_id', )
+    list_filter = ('nome_aluno', )
     date_hierarchy = 'data_aula'
