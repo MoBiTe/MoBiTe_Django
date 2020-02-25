@@ -10,5 +10,5 @@ class AulaAdmin(admin.ModelAdmin):
         'data_aula',
         'hora_aula',
     )
-    list_filter = ('aluno_id',)
+    list_filter = ('aluno_id', )
     date_hierarchy = 'data_aula'
