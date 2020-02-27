@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'auto_escola.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'auto_escola',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        'NAME': 'de4ntasg6qorc4',
+        'USER': 'obchyhcvswhdpt',
+        'PASSWORD': '0b87c4ed2a3aa57a6b013cb7e8f4f8a4e377face22352e5847e03dd9313e8cca',
+        'HOST': 'ec2-46-137-156-205.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
